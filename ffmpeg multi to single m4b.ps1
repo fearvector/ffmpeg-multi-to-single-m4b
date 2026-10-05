@@ -6,7 +6,6 @@ foreach ($line in $items) {
 	foreach ($extension in $extensions) {
 		if ($line -like $extension) {
 			$ext = $extension
-			break
 		}
 	}
 	if ($ext -ne $null) {break}
